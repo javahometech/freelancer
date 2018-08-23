@@ -4,9 +4,9 @@ variable "subnet_count" {
 }
 
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 
 variable "vpc_endpoind_service" {
-  default = "com.amazonaws.ap-south-1.s3"
+  default = "com.amazonaws.us-east-1.s3"
 }
